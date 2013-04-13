@@ -1,6 +1,6 @@
 # LoadRunner
-![alt text](http://my.stratos.net/~hewston95/RTM45/loderunner.png "Load Runner")
 
+<img src="http://my.stratos.net/~hewston95/RTM45/loderunner.png" style="float:right; margin:10px; width:100px" />
 Take some Ruby Code and pass it to LoadRunner::Queue and you'll be able to
  * Run the code n number of times in parallel
  * Rand stagger the execution
