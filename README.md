@@ -21,7 +21,7 @@ Or install it yourself as:
 
     $ gem install load_runner
 
-## Usage
+## Basic Usage
 
 Create a LoadRunner Queue
 
@@ -37,6 +37,23 @@ run it
 
 	q.run
 
+## Ways to Run a Queue
+
+Run parallel threads
+
+    q.run
+
+Run and stagger by rand number between 1-5
+	
+	q.run_and_stagger(5)
+
+Run for 2 minutes
+
+	q.run_for_duration(120)
+
+Run for 2 minutes and stagger by rand number between 1-5
+
+	q.run_for_duration(120, 5)
 
 ## Contributing
 
