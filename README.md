@@ -58,10 +58,16 @@ Run threads for 2 minutes and stagger by rand number between 1-5
 
 ## Concurrency
 
-To run the threads in a truely concurrent fashion across multiple processors you'll need to use this in a JRuby environment.  I use RBEnv so I run the following commands from the project folder:
+To run the threads in a truely concurrent fashion across multiple processors you must:
+ * Add LoadRunner Gem to your GemFile
+ * Then set your project up to use JRuby. 
+
+ I use RBEnv so I run the following commands from the project folder:
 
  	rbenv install jruby-1.7.3
  	rbenv local jruby-1.7.3
+
+
 
 ## Contributing
 
