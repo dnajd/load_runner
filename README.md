@@ -1,6 +1,11 @@
 # LoadRunner
 
-TODO: Write a gem description
+Take some Ruby Code and pass it to Load Runner
+ * run the code n number of times in parallel (with jruby)
+ * stagger the execution
+ * run the code for a specific amount of time (ex. 5 minutes)
+
+Use a Logger like r4log to pass results to the console, file system or splunk storm
 
 ## Installation
 
