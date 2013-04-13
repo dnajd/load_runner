@@ -65,7 +65,6 @@ To run the threads in a truely concurrent fashion across multiple processors you
 I use RBEnv so I run the following commands from the project folder:
 
  	rbenv install jruby-1.7.3
-
  	rbenv local jruby-1.7.3
 
 
