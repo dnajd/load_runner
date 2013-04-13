@@ -29,7 +29,9 @@ Create a LoadRunner Queue
 
 pass a block of work for 4 threads
     
-    q.load(4) { puts 'hi'}
+    q.load(4) do 
+    	puts 'hi'
+    end
 
 run it
 
