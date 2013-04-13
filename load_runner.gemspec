@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = LoadRunner::VERSION
   spec.authors       = ["Don Najd"]
   spec.email         = ["dnajd7@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.description   = %q{Load Runner Ruby Gem allows you to run a block of code many times in parallel, stagger execution or run it for a specific amount of time}
+  spec.summary       = %q{Run a block of code many times in parallel, stagger execution or run it for a specific amount of time}
+  spec.homepage      = "https://github.com/dnajd/load_runner"
+  spec.license       = "BSD"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
