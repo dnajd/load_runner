@@ -1,5 +1,5 @@
 # LoadRunner
-<img src="http://my.stratos.net/~hewston95/RTM45/loderunner.png" style="float:right" />
+![alt text](http://my.stratos.net/~hewston95/RTM45/loderunner.png "Load Runner")
 
 Take some Ruby Code and pass it to LoadRunner::Queue and you'll be able to
  * Run the code n number of times in parallel
