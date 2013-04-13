@@ -23,7 +23,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a LoadRunner Queue
+
+    q = LoadRunner::Queue.new
+
+pass a block of work for 4 threads
+    
+    q.load(4) { puts 'hi'}
+
+run it
+
+	q.run
+
 
 ## Contributing
 
